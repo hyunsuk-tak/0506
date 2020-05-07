@@ -1,0 +1,20 @@
+{
+  "name": "0506",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://hyunsuk-tak.github.io/0506",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunsuk-tak/0506.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunsuk-tak/0506/issues"
+  }
+}
