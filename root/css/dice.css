@@ -7,7 +7,7 @@ body{
     background-image: linear-gradient(rgba(62,20,20,.4), rgba(62,20,20,.6));
     background-size: cover;
     height: 100vh;
-    color: yellowgreen;
+    color: blue;
     font-family: 'Lato', sans-serif;
     position: relative;
 }
