@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/dice.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <section class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">44</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </section>
+        <section class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">11</div>
+            </div>
+        </section>
+
+        <button class="btn-new"><i class="fas fa-plus-circle"></i>New Game</button>
+        <button class="btn-roll"><i class="fas fa-sync-alt"></i>Roll</button>
+        <button class="btn-hold"><i class="fas fa-arrow-circle-down"></i>Hold</button>
+
+        <img src="images/dice-1.png" alt="dic" class="dice">
+    </main>
+    <script src="scripts/dice.js"></script>
+</body>
+
+</html>
