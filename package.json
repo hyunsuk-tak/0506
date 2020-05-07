@@ -6,7 +6,7 @@
   "homepage": "https://hyunsuk-tak.github.io/0506",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d root"
   },
   "repository": {
     "type": "git",
